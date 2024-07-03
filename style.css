@@ -336,11 +336,11 @@ body
 
 @media (max-width: 600px) {
     .clock-dial {
-        width: 80vw;
-        height: 80vw;
+        width: 50vw;
+        height: 50vw;
         max-width: 300px;
         max-height: 300px;
-        margin-top: 20px;
+        margin-top: 50px;
     }
 
     .point {
