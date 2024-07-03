@@ -187,3 +187,150 @@ body
     left: 174px;
     /* background-color: #fff; */
 }
+
+
+/* Media Queries */
+
+/* Large screens */
+@media (min-width: 1200px) {
+    .clock-dial {
+        width: 450px;
+        height: 450px;
+    }
+
+    .point {
+        width: 18px;
+        height: 18px;
+        top: 216px;
+        left: 216px;
+    }
+
+    .hour {
+        font-size: 28px;
+    }
+
+    .brand {
+        font-size: 18px;
+        top: 81px;
+    }
+
+    .minute-hand-wrapper {
+        width: 360px;
+        height: 360px;
+        top: 45px;
+        left: 45px;
+    }
+
+    .minute-hand .hand {
+        width: 3px;
+        height: 180px;
+        left: 178px;
+    }
+
+    .minute-hand .arrow {
+        font-size: 27px;
+        left: 170px;
+        top: -6px;
+    }
+
+    .hour-hand-wrapper {
+        width: 270px;
+        height: 270px;
+        top: 90px;
+        left: 90px;
+    }
+
+    .hour-hand .hand {
+        width: 3px;
+        height: 135px;
+        left: 134px;
+    }
+
+    .hour-hand .arrow {
+        font-size: 27px;
+        left: 126px;
+        top: -6px;
+    }
+
+    .second-hand-wrapper {
+        width: 315px;
+        height: 315px;
+        top: 67.5px;
+        left: 67.5px;
+    }
+
+    .second-hand .hand {
+        width: 1.5px;
+        height: 157.5px;
+        left: 157.5px;
+    }
+}
+
+/* Medium screens */
+@media (max-width: 1199px) and (min-width: 768px) {
+    .clock-dial {
+        width: 400px;
+        height: 400px;
+    }
+
+    .point {
+        width: 16px;
+        height: 16px;
+        top: 192px;
+        left: 192px;
+    }
+
+    .hour {
+        font-size: 24px;
+    }
+
+    .brand {
+        font-size: 16px;
+        top: 72px;
+    }
+
+    .minute-hand-wrapper {
+        width: 320px;
+        height: 320px;
+        top: 40px;
+        left: 40px;
+    }
+
+    .minute-hand .hand {
+        width: 2.5px;
+        height: 160px;
+        left: 158px;
+    }
+
+    .minute-hand .arrow {
+        font-size: 24px;
+        left: 150px;
+        top: -5px;
+    }
+
+    .hour-hand-wrapper {
+        width: 240px;
+        height: 240px;
+        top: 80px;
+        left: 80px;
+    }
+
+    .hour-hand .hand {
+        width: 2.5px;
+        height: 120px;
+        left: 118px;
+    }
+
+    .hour-hand .arrow {
+        font-size: 24px;
+        left: 110px;
+        top: -5px;
+    }
+
+    .second-hand-wrapper {
+        width: 280px;
+        height: 280px;
+        top: 60px;
+        left: 60px;
+    }
+}
